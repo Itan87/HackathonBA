@@ -25,7 +25,7 @@ header {
 
 /* Agregar una imagen personalizada al desplegable */
 .navbar-toggler {
-  background-image: url('desplegable.png');
+  background-image: url('imagenes/desplegable.png');
   background-size: contain; /* Ajusta el tamaño de la imagen para que quepa en el botón */
   width: 30px; /* Ajusta el ancho del botón según el tamaño de la imagen */
   height: 30px; /* Ajusta la altura del botón según el tamaño de la imagen */
