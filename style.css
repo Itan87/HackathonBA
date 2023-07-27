@@ -394,6 +394,10 @@ footer p{
 /* Estilos responsivos */
 @media (max-width: 768px) {
 
+  .popup {
+    width: 90%; /* Reducir el ancho del popup para pantallas medianas */
+  }
+ 
   header {
     padding: 10px;
   }
@@ -436,5 +440,10 @@ footer p{
 
   .miembros li {
     width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .popup {
+    width: 95%; /* Reducir aún más el ancho del popup para pantallas pequeñas */
   }
 }
