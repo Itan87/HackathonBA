@@ -34,10 +34,7 @@ header {
 
 
 .logo {
-  max-width: 300px; /* Tamaño máximo del logo header img {
-  width: 250px; 
-}
-*/
+  max-width: 300px; /* Tamaño máximo del logo header img*/
 }
 
 nav ul {
@@ -147,6 +144,7 @@ p{
   text-align: center;
   font-family: Quicksand;
 }
+
 label {
   display: block;
   font-weight: bold;
@@ -198,7 +196,6 @@ textarea {
 #bienvenida{
   font-family: trebuche ms /* tipo de fuente */
   font-weight: 300; /* Peso de la fuente */
-  /* Estilo de la fuente font-style: italic; */
   padding: 50px;
   padding-bottom: 30px;
 }
@@ -256,12 +253,6 @@ textarea {
     font-size: 18px;
 }
 
-.producto-precio {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
 .containerContacto {
   display: flex;
   justify-content: center;
@@ -271,26 +262,6 @@ textarea {
   margin: auto;
   padding: 0 5px; /* Agrega espacio a los lados */
   box-sizing: border-box; /* Incluye el padding en el ancho del contenedor */
-}
-
-.btn {
-  font-size: 20px;
-  color: #ffffff; /* Texto blanco */
-  background-color: #145f4c; /* Verde truqueza */
-  border-color: #145f4c; /* Verde truqueza */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 0;
-  width: 80%;
-}
-
-.btn:hover {
-  background-color: #FFA500; /* naranja */
-  border-color: #FFA500; /* naranja */
-  transform: scale(1.1);
 }
 
 .miembros .imgmiembro{
@@ -325,10 +296,6 @@ textarea {
 
 .carousel-item {
   text-align: center;
-}
-
-.producto-descripcion {
-  margin-bottom: 1rem;
 }
 
 /* Estilo para el carrusel de tránsito */
@@ -397,7 +364,7 @@ footer p{
   .popup {
     width: 90%; /* Reducir el ancho del popup para pantallas medianas */
   }
- 
+
   header {
     padding: 10px;
   }
@@ -442,6 +409,7 @@ footer p{
     width: 100%;
   }
 }
+
 @media (max-width: 480px) {
   .popup {
     width: 95%; /* Reducir aún más el ancho del popup para pantallas pequeñas */
