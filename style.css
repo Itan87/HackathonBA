@@ -1,0 +1,440 @@
+/* Estilos generales */
+body
+ {
+  background-color: #FCDFD2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del encabezado #eaf3ec*/
+header {
+  padding: 10px;
+  text-align: center;
+}
+
+#header-container {
+  background-color: #ff6421; /* Fondo naranja */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Ocultar el icono predeterminado del desplegable */
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+/* Agregar una imagen personalizada al desplegable */
+.navbar-toggler {
+  background-image: url('desplegable.png');
+  background-size: contain; /* Ajusta el tamaño de la imagen para que quepa en el botón */
+  width: 30px; /* Ajusta el ancho del botón según el tamaño de la imagen */
+  height: 30px; /* Ajusta la altura del botón según el tamaño de la imagen */
+  cursor: pointer;
+}
+
+
+.logo {
+  max-width: 300px; /* Tamaño máximo del logo header img {
+  width: 250px; 
+}
+*/
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+h1 {
+  color: orangered;
+  margin-top: 10px;
+  font-family: Trebuchet ms;
+  font-size: 50px;
+}
+
+/* Estilos de las secciones #f7faf8*/
+section {
+  padding: 20px 0;
+  background-color: #FCDFD2;
+  text-align: center;
+}
+
+h2 {
+  color: orangered;
+  font-family: Trebuchet ms;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*pop up*/
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  z-index: 10000;
+}
+
+.popup h2 {
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button,
+.buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons button:hover,
+.buttons a:hover {
+  background-color: #0056b3;
+}
+
+#close-button {
+  background-color: #dc3545;
+}
+
+#close-button:hover {
+  background-color: #b02a37;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/*generales y página de contacto*/
+p{
+  text-align: center;
+  font-family: Quicksand;
+}
+label {
+  display: block;
+  font-weight: bold;
+}
+
+form-group{
+  width: 100%;
+  display: flex;
+}
+
+.contact-preference {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  flex: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+#submit-button {
+  display: block;
+  background-color: orangered;
+  color: white;
+  width: 100%;
+  border: none;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+  width: 80%;
+}
+
+#submit-button:hover {
+  background-color: #FFA500;
+  transform: scale(1.1);
+  color: white;
+}
+
+#bienvenida{
+  font-family: trebuche ms /* tipo de fuente */
+  font-weight: 300; /* Peso de la fuente */
+  /* Estilo de la fuente font-style: italic; */
+  padding: 50px;
+  padding-bottom: 30px;
+}
+
+/*Miembros*/
+.miembros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 0 45%;
+    margin-bottom: 10px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.miembros ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.miembros li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.miembros li:hover {
+    border-color: #C78C19;
+}
+
+.miembros li:active {
+    border-color: #088C19;    
+}
+
+.miembros li:hover h2 {
+    font-size: 33px;
+}
+.miembros h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.miembro-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.containerContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  height: 90%;
+  margin: auto;
+  padding: 0 5px; /* Agrega espacio a los lados */
+  box-sizing: border-box; /* Incluye el padding en el ancho del contenedor */
+}
+
+.btn {
+  font-size: 20px;
+  color: #ffffff; /* Texto blanco */
+  background-color: #145f4c; /* Verde truqueza */
+  border-color: #145f4c; /* Verde truqueza */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0;
+  width: 80%;
+}
+
+.btn:hover {
+  background-color: #FFA500; /* naranja */
+  border-color: #FFA500; /* naranja */
+  transform: scale(1.1);
+}
+
+.miembros .imgmiembro{
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.miembros a {
+  text-decoration: none; /* Quitar subrayado */
+  color: #000000; /* Cambiar color de texto */
+}
+
+.miembros a:hover {
+  color: #C78C19; /* Cambiar color de texto al pasar el cursor */
+}
+
+.miembros a:active {
+  color: #088C19; /* Cambiar color de texto al hacer clic */
+}
+
+}
+
+/* Estilos personalizados para el carrusel y el contenido de texto */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+.producto-descripcion {
+  margin-bottom: 1rem;
+}
+
+/* Estilo para el carrusel de tránsito */
+.carrusell-1 .carousel-inner img {
+  width: 100%;
+  height: 300px; /* altura deseada para el carrusel pequeño */
+  object-fit: cover;
+}
+
+/* Estilo para el carrusel de contrataciones */
+.carrusell-2 .carousel-inner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #FCFCBA;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  margin-left: 0px;
+  text-align: center;
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  margin: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.imgFooter{
+  max-width: 250px; /* Tamaño de imagen para pantallas más grandes */
+  max-height: 250px;
+  margin: 0;
+  padding: 0;
+}
+
+footer p{
+  margin-top: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+
+  header {
+    padding: 10px;
+  }
+
+  header img {
+    width: 150px;
+  }
+
+  nav ul li a {
+    margin: 0 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  #historia .col-md-6 {
+    column-count: 1; /* Cambia a una columna para pantallas más pequeñas */
+  }
+
+  footer {
+    padding: 10px;
+    background-color: #eaf3ec;
+  }
+
+  footer ul li a {
+    margin: 0 5px;
+    background-color: #eaf3ec
+  }
+  
+  .imgFooter {
+    max-width: 150px; /* Tamaño de imagen para dispositivos móviles */
+    max-height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .miembros li {
+    width: 100%;
+  }
+}
