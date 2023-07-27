@@ -145,6 +145,10 @@ p{
   font-family: Quicksand;
 }
 
+.col-lg-6{
+  font-family: Quicksand;
+}
+
 label {
   display: block;
   font-weight: bold;
