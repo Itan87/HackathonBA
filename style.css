@@ -102,7 +102,7 @@ h2 {
 
 .popup h2 {
   font-weight: bold;
-}
+ }
 
 .buttons {
   margin-top: 20px;
@@ -147,6 +147,25 @@ p{
 
 .col-lg-6{
   font-family: Quicksand;
+}
+
+.cuadrantes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.cuadrante {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.cuadrantes img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 label {
@@ -393,6 +412,10 @@ footer p{
     column-count: 1; /* Cambia a una columna para pantallas más pequeñas */
   }
 
+  .cuadrantes {
+    grid-template-columns: 1fr; /* Una sola columna para pantallas pequeñas */
+  }
+  
   footer {
     padding: 10px;
     background-color: #eaf3ec;
